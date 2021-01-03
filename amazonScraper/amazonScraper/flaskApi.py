@@ -6,7 +6,7 @@ import datetime
 app = Flask(__name__)
 
 @app.route('/amazonapi/<string:qry>')
-#Example: http://127.0.0.1:5000/amazonapi/laptops
+#Example: http://127.0.0.1:5000/amazonapi/laptops, http://127.0.0.1:5000/amazonapi/earphones
 def amazonapi(qry):
     spiderName = 'amazon'
     File = datetime.datetime.now()
