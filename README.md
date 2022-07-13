@@ -1,4 +1,4 @@
-# Automate_amazonScraper_withAPi
+# Automate_amazonScraper_with_Scrapy
 Scrapy integrated with Flask Api.
 
 An automated web scraper that extracts information as per user input.
